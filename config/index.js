@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "MvwKHoh24bPMTHnLfjJwWKlzZYfxyhJywc2yKZaUv4U",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -46,7 +46,7 @@ export const config = {
     {
       name: "小乖", 
       id: "wx42ddeb3bbb677736",
-      useTemplateId: "oSQNz6pWQDsVmhL-noaSiTVCmi5k",
+      useTemplateId: "MvwKHoh24bPMTHnLfjJwWKlzZYfxyhJywc2yKZaUv4U",
       province: "广东",
       city: "广州",
       openUrl: "https://wangxinleo.cn"
@@ -54,7 +54,7 @@ export const config = {
     {
       name: "范范",
       id: "oSQNz6mpeKTl0Oj-oNd8ELWBaJJc",
-      useTemplateId: "x8PeJQ3lsrlmp9vYlK4osejwXSBI6C9TakZWCyC5zOI",
+      useTemplateId: "MvwKHoh24bPMTHnLfjJwWKlzZYfxyhJywc2yKZaUv4U",
       province: "广东",
       city: "广州",
       openUrl: "https://wangxinleo.cn"
@@ -82,7 +82,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "oSQNz6mpeKTl0Oj-oNd8ELWBaJJc",
     }, 
   ],
     

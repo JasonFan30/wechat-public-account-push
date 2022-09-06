@@ -20,9 +20,9 @@ export const config = {
    *    // 想要发送的人的名字
    *    name: "老婆0",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "oSQNz6pWQDsVmhL-noaSiTVCmi5k",
+   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "x8PeJQ3lsrlmp9vYlK4osejwXSBI6C9TakZWCyC5zOI",
+   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -31,9 +31,9 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆",
+      name: "小乖",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
+      id: "oSQNz6pWQDsVmhL-noaSiTVCmi5k",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "MvwKHoh24bPMTHnLfjJwWKlzZYfxyhJywc2yKZaUv4U",
       // 所在省份
@@ -44,19 +44,19 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "小乖", 
-      id: "wx42ddeb3bbb677736",
-      useTemplateId: "MvwKHoh24bPMTHnLfjJwWKlzZYfxyhJywc2yKZaUv4U",
-      province: "广东",
-      city: "广州",
+      name: "老婆1", 
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "范范",
-      id: "oSQNz6mpeKTl0Oj-oNd8ELWBaJJc",
-      useTemplateId: "MvwKHoh24bPMTHnLfjJwWKlzZYfxyhJywc2yKZaUv4U",
-      province: "广东",
-      city: "广州",
+      name: "老婆2",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
@@ -107,9 +107,9 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "小乖", "year": "2001", "date": "11-22"},
-    
-   
-    
+    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
 
   /**
@@ -117,7 +117,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 1,
 
   /** 日期相关 */
 
@@ -128,10 +128,10 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2020-09-03"},
+    // 结婚纪念日
     
-    
-   
-    
+    // 退伍日, 不用可以删掉
+    {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
@@ -145,7 +145,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    
+    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",

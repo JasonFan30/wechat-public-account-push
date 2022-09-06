@@ -46,17 +46,17 @@ export const config = {
     {
       name: "小乖", 
       id: "wx42ddeb3bbb677736",
-      useTemplateId: "x8PeJQ3lsrlmp9vYlK4osejwXSBI6C9TakZWCyC5zOI",
+      useTemplateId: "oSQNz6pWQDsVmhL-noaSiTVCmi5k",
       province: "广东",
       city: "广州",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "范范",
+      id: "oSQNz6mpeKTl0Oj-oNd8ELWBaJJc",
+      useTemplateId: "x8PeJQ3lsrlmp9vYlK4osejwXSBI6C9TakZWCyC5zOI",
+      province: "广东",
+      city: "广州",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
